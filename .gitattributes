@@ -1,0 +1,5 @@
+* text=auto
+
+*.md text eol=lf
+*.mcmeta text eol=lf
+*.png binary

@@ -1,0 +1,11 @@
+# Generated release archives
+*.zip
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
