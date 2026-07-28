@@ -1,6 +1,7 @@
 {
   "pack": {
-    "pack_format": 34,
-    "description": "Rick Totem para Minecraft Java 1.21"
+    "description": "Rick Totem para Minecraft Java 26.2",
+    "min_format": 88,
+    "max_format": 88
   }
 }
