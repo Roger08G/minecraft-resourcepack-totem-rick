@@ -1,6 +1,6 @@
 # Rick Totem Resource Pack
 
-Resource pack para **Minecraft Java Edition 1.21** que sustituye la textura del **Tótem de la Inmortalidad** por una versión pixel art de Rick.
+Resource pack para **Minecraft Java Edition 26.2** que sustituye la textura del **Tótem de la Inmortalidad** por una versión pixel art de Rick.
 
 ![1](./images/1.png)
 
@@ -12,10 +12,13 @@ Resource pack para **Minecraft Java Edition 1.21** que sustituye la textura del 
 
 ## Compatibilidad
 
-- Minecraft Java Edition 1.21 y 1.21.1.
-- `pack_format`: 34.
+- Minecraft Java Edition 26.2.
+- Resource Pack Version 88.0.
+- `pack.mcmeta` declara `min_format` y `max_format` con el valor `88`.
 - No requiere OptiFine ni otros mods.
 - Puede utilizarse en mundos individuales y servidores que permitan resource packs locales.
+
+Esta rama está destinada específicamente a Minecraft 26.2. Para Minecraft 1.21 y 1.21.1, utiliza el [release v1.21.0](https://github.com/Roger08G/minecraft-resourcepack-totem-rick/releases/tag/v1.21.0).
 
 ## Contenido
 
@@ -34,7 +37,7 @@ Resource pack para **Minecraft Java Edition 1.21** que sustituye la textura del 
 
 3. Abre Minecraft.
 4. Ve a **Opciones → Paquetes de recursos**.
-5. Activa **Rick Totem para Minecraft Java 1.21**.
+5. Activa **Rick Totem para Minecraft Java 26.2**.
 
 Si Minecraft ya estaba abierto, recarga los recursos con `F3 + T`.
 
@@ -43,7 +46,7 @@ Si Minecraft ya estaba abierto, recarga los recursos con `F3 + T`.
 Desde la raíz del repositorio, después de crear un commit:
 
 ```bash
-git archive --format=zip --output Rick_Totem_ResourcePack_1.21.zip HEAD
+git archive --format=zip --output Rick_Totem_ResourcePack_26.2.zip HEAD
 ```
 
 El ZIP resultante tendrá `pack.mcmeta`, `pack.png` y `assets/` directamente en su raíz, como exige Minecraft. No comprimas la carpeta contenedora completa: si `pack.mcmeta` queda dentro de una subcarpeta, Minecraft no reconocerá correctamente el pack.
@@ -51,7 +54,7 @@ El ZIP resultante tendrá `pack.mcmeta`, `pack.png` y `assets/` directamente en 
 ## Estructura
 
 ```text
-Rick_Tótem_ResourcePack_1.21/
+Rick_Tótem_ResourcePack_26.2/
 ├── assets/
 │   └── minecraft/
 │       └── textures/
